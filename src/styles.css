@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&display=swap');
+:root {
+    --first-color: hsl(354, 78%, 60%);
+    --button-color: #262626;
+    --button-color-alt: hsl(0, 0%, 21%);
+    --card-color: #e6e6e6;
+    --title-color: #262626;
+    --text-color: #595959;
+    --text-color-light: #8c8c8c;
+    --body-color: hsl(206, 4%, 97%);
+    --container-color: #fff;
+    --border-color: #f0f0f0;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+.dark-theme {
+    --first-color: hsl(182, 53%, 74%);
+    --button-color: hsl(246, 16%, 12%);
+    --button-color-alt: #474747;
+    --card-color: hsla(246, 16%, 5%, .5);
+    --title-color: hsl(0, 0%, 95%);
+    --text-color: #bfbfbf;
+    --body-color: hsl(249, 19%, 14%);
+    --container-color: hsl(246, 16%, 12%);
+    --border-color: hsl(0, 0%, 20%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+}
+img{
+    display: block;
+    width: 100%;
+}
+
+ul, li{
+    list-style: none;
+}
+
+h1, h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body{
+    min-width: 360px;
+    
+}
+
+.container{
+}   
+
+.main__nav {
+    display: flex;
+    height: 80px;
+    width: 100vw;
+    margin-top: 0;
+    background-color: red;
+    position: absolute;
+}
+
+.home__nav {
+    /* display: flex; */
+    position: absolute;
+    top: 20px;
+    right: 0;
+    height: 100vh;
+    width: 50%;
+    background-color: green;
+}
+.icon__nav{
+
+    
+}
